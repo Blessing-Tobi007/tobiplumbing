@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tobi's Plumbing.</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="preconnect" href="https://fonts.gastalic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/valve_11098312.png" alt="" ></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="location.html">LOCATION</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>Plumbing You Can Trust.</h1>
+      <p>As professional plumbing contractors, we are licensed, bonded, and insured. 
+        When we perform plumbing services, you can rest assured that they are done right! 
+      </p>
+      <a href="location.html" class="hero-btn">Visit Us To Know More</a>
+    </div>
+  </section>
+  <section class="service">
+    <h1>Services We Offer</h1>
+    <p>Our plumbing services include everything from leak detection to faucet and valve replacement,
+       drain cleaning, new toilet installations, and bathroom styling. </p>
+  
+    <div class="row">
+      <div class="service-col">
+        <h3>New Toilet Installation</h3>
+        <p> We ensure swift installation of modern toilets, enhancing comfort and hygiene. 
+          Seamless fitting, water-saving features, and expert craftsmanship that we offer 
+          guarantee a hassle-free experience for homeowners.</p>
+      </div>
+      <div class="service-col">
+        <h3>Drain Cleaning</h3>
+        <p>Our cleaning services ensure optimal flow, preventing clogs and backups. We 
+          utilize advanced techniques to clear debris, restoring functionality and maintaining 
+          plumbing systems' integrity reliably.</p>
+      </div>
+      <div class="service-col">
+        <h3>Leak Detection</h3>
+        <p>Tobi's Plumbing experts employ cutting-edge technology to swiftly identify and repair leaks, 
+          preserving property integrity and conserving water. Timely detection prevents costly damage 
+          and promotes sustainability.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="showroom">
+    <h1>Our Showroom Locations</h1>
+    <p>These are some of our showroom locations where you can view various bathroom designs.</p>
+
+    <div class="row">
+      <div class="showroom-col">
+        <img src="images/london.png" >
+        <div class="layer">
+          <h3>LONDON</h3>
+        </div>
+      </div>
+      <div class="showroom-col">
+        <img src="images/newyork.png" >
+        <div class="layer">
+          <h3>NEW YORK</h3>
+        </div>
+      </div>
+      <div class="showroom-col">
+        <img src="images/washington.png" >
+        <div class="layer">
+          <h3>WASHINGTON</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h1>Contact Us For Whatever Service<br>You May Need!</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+  </section>
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>At Tobi's Plumbing, we pride ourselves on delivering top-notch services backed by years of experience. 
+      Our expert<br> team ensures prompt, reliable solutions for all your plumbing needs. </p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> By Tobi</p>
+  </section>
+  
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>

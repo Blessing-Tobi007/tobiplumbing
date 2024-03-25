@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plumbing Works.</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="preconnect" href="https://fonts.gastalic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/valve_11098312.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="location.html">LOCATION</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+
+  <section class="about-us">
+
+    <div class="row">
+      <div class="about-col">
+        <h1>We Are The Best</h1>
+        <p>Welcome to Tobi's Plumbing, where integrity meets expertise. With over a decade of
+           dedicated service, we're your trusted partner for all plumbing needs and bathroom 
+           designs. Our licensed professionals are committed to delivering efficient, reliable 
+           solutions, whether it's a leaky faucet or a complex installation. Count on us for 
+           quality workmanship, exceptional service, and peace of mind. Our mission is to exceed 
+           expectations by providing unparalleled customer service and transparent communication 
+           every step of the way. We understand the importance of a smoothly running plumbing 
+           system, and we're here to ensure your satisfaction. From residential repairs to 
+           commercial installations, trust Tobi's Plumbing for prompt, dependable service you 
+           can rely on.</p>
+        <a href="services.html" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="images/587.jpg" >
+      </div>
+    </div>
+
+  </section>
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>At Tobi's Plumbing, we pride ourselves on delivering top-notch services backed by years of experience. Our expert<br> team ensures prompt, reliable solutions for all your plumbing needs.</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> By Tobi</p>
+  </section>
+  
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
